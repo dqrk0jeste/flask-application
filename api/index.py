@@ -47,7 +47,7 @@ def home():
 
     print(results)
 
-    return f'<h1>Zdravo, {results[0]['ime']}!</h1>'
+    return f"<h1>Zdravo, {results[0]['ime']}!</h1>"
 
 @app.route('/about')
 def about():
